@@ -4,9 +4,11 @@ const RESULTS_PER_PAGE = 3
 
 fetch("./data.json") /* fetch es asíncrono */
   .then((response) => {
+
     return response.json();
   })
   .then((jobs) => {
+    console.log()
     jobs.forEach(job => {
       const article = document.createElement('article')
       article.className = 'job-listing-card'

@@ -32,7 +32,19 @@
     "data": {
       "technology": "mobile",
       "modalidad": "guadalajara",
-      "nivel": "mid-level"
+      "nivel": "junior"
+    }
+  },
+  {
+    "id": "e31f9a92-61d7-4b7a-b3a2-91e8c1f40b2d",
+    "titulo": "frontend developer",
+    "empresa": "Mobile Apps Ltd.",
+    "ubicacion": "Guadalajara",
+    "descripcion": "un crak para todo no mas descripcion ya saben si nomas van a preguntar evitence cosas",
+    "data": {
+      "technology": "mobile",
+      "modalidad": "guadalajara",
+      "nivel": "senior"
     }
   },
   {
@@ -180,4 +192,3 @@
     }
   }
 ]
-
