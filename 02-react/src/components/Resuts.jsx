@@ -1,9 +1,25 @@
+import data from "../data.json";
+
 function Results() {
   return (
     <section>
       <h2>Resultados de búsqueda</h2>
 
-      <div className="jobs-listings"></div>
+      <div className="jobs-listings">
+        {/* aqui se tienen que renderizar los resultados */}
+        {data.map((job) => (
+          <article key={job.id} className="job-listing">
+            <h3>{job.titulo}</h3>
+            <p>{job.empresa}</p>
+            <p>{job.ubicacion}</p>
+            <p>{job.descripcion}</p>
+
+            {/* <p>{job.data.technology}</p> */}
+            <p>{job.data.modalidad}</p>
+            <p>{job.data.nivel}</p>
+          </article>
+        ))}
+      </div>
 
       <nav className="pagination">
         <a href="#">

@@ -1,9 +1,9 @@
-function Form(){
-    return (
-          <section className="jobs-search">
-          <h1>Encuentra tu próximo trabajo</h1>
-          <p>Explora miles de oportunidades en el sector tecnológico.</p>
+import data from "../data.json";
+console.log(data);
 
+
+function Form (){
+    return(
           <form id="empleos-search-form" role="search">
             <div className="search-bar">
               <svg
@@ -69,9 +69,6 @@ function Form(){
               </select>
             </div>
           </form>
-
-          <span id="filter-selected-value"></span>
-        </section>
     )
 }
 
