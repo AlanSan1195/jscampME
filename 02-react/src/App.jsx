@@ -19,11 +19,13 @@ function App() {
   const [textToFilter, setTextToFilter] = useState("");
   const [currentPage, setPage] = useState(1);
 
-  const jobsFiltersByFilters = jobsData.filter(job=>{
-    return(
-      (filters.technology === '' || job.data.technology === filters.technology)
-    )
-  })
+ const jobsFiltersByFilters = jobsData.filter(job => {
+  return (
+    (filters.technology === '' || job.data.technology === filters.technology) &&
+    (filters.location === '' || job.ubicacion === filters.location) &&
+    (filters.experienceLevel === '' || job.data.nivel === filters.experienceLevel)
+  )
+})
 
 
 
@@ -64,6 +66,7 @@ function App() {
         <JobsFormSection
           onSearch={handleSearch}
           onTextFilter={handleTextfilter}
+
         />
         <section>
           <JobListings jobs={pageResult} />

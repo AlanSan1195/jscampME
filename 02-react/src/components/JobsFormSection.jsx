@@ -29,6 +29,7 @@ function JobsFormSection({ onSearch, onTextFilter }) {
     onTextFilter(text);
   };
 
+
   return (
     <section className="jobs-search">
       <h1>Encuentra tu próximo trabajo</h1>
@@ -96,10 +97,11 @@ function JobsFormSection({ onSearch, onTextFilter }) {
           <select name={idExperienceLevel}id="filter-experience-level">
             <option value="">Nivel de experiencia</option>
             <option value="junior">Junior</option>
-            <option value="mid">Mid-level</option>
+            <option value="mid-level">Mid-level</option>
             <option value="senior">Senior</option>
             <option value="lead">Lead</option>
           </select>
+
         </div>
       </form>
       <span id="filter-selected-value"></span>

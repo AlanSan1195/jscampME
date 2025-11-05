@@ -3,7 +3,7 @@
     "id": "7a4d1d8b-1e45-4d8c-9f1a-8c2f9a9121a4",
     "titulo": "Desarrollador de Software Senior",
     "empresa": "Tech Solutions Inc.",
-    "ubicacion": "Remoto",
+    "ubicacion": "cdmx",
     "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
     "data": {
       "technology": "javascript",
@@ -15,7 +15,7 @@
     "id": "d35b2c89-5d60-4f26-b19a-6cfb2f1a0f57",
     "titulo": "Analista de Datos",
     "empresa": "Data Driven Co.",
-    "ubicacion": "Ciudad de México",
+    "ubicacion": "cdmx",
     "descripcion": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.",
     "data": {
       "technology": "python",
@@ -27,7 +27,7 @@
     "id": "e31f9a92-61d7-4b7a-b3a2-91e8c1f40b2d",
     "titulo": "Desarrollador de Aplicaciones Móviles",
     "empresa": "Mobile Apps Ltd.",
-    "ubicacion": "Guadalajara",
+    "ubicacion": "guadalajara",
     "descripcion": "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.",
     "data": {
       "technology": "mobile",
@@ -87,7 +87,7 @@
     "id": "fe7b2c54-4f47-4e2b-9e87-2b5413a6b24f",
     "titulo": "Product Manager",
     "empresa": "NextGen Technologies",
-    "ubicacion": "Madrid",
+    "ubicacion": "guadalajara",
     "descripcion": "Estamos buscando un Product Manager con experiencia en la definición y lanzamiento de productos digitales. Se requiere capacidad analítica, liderazgo y conocimiento en metodologías ágiles.",
     "data": {
       "technology": "mobile",
@@ -111,12 +111,12 @@
     "id": "f91e4c7b-3840-43da-8ad7-3a52e2a8cf1d",
     "titulo": "Backend Developer",
     "empresa": "APIWorks",
-    "ubicacion": "Bogotá",
+    "ubicacion": "cdmx",
     "descripcion": "Estamos buscando un desarrollador backend con experiencia en Node.js, Express y bases de datos NoSQL. Se requiere conocimiento en arquitectura de microservicios.",
     "data": {
       "technology": "node",
       "modalidad": "bogota",
-      "nivel": "mid"
+      "nivel": "mid-level"
     }
   },
   {
@@ -135,11 +135,11 @@
     "id": "e8d13c45-36cb-46cf-8f9d-8a0a7b532b8b",
     "titulo": "QA Automation Engineer",
     "empresa": "Quality First",
-    "ubicacion": "Lima",
+    "ubicacion": "guadalajara",
     "descripcion": "Se busca ingeniero de QA con experiencia en automatización de pruebas utilizando herramientas como Selenium, Cypress o Playwright. Conocimiento deseado en CI/CD.",
     "data": {
       "technology": "mobile",
-      "modalidad": "lima",
+      "modalidad": "presencial",
       "nivel": "mid-level"
     }
   },
