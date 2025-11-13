@@ -11,7 +11,8 @@ function JobsFormSection({ onSearch, onTextFilter }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const dataForm = new FormData(event.target);
+    // event !== currentTarget
+    const dataForm = new FormData(event.currentTarget);
     // sacar un objeto de los filtrso solicitados
     const filters = {
       search: dataForm.get(idTextImput),
@@ -34,7 +35,7 @@ function JobsFormSection({ onSearch, onTextFilter }) {
     <section className="jobs-search">
       <h1>Encuentra tu próximo trabajo</h1>
       <p>Explora miles de oportunidades en el sector tecnológico.</p>
-      <form onSubmit={handleSubmit} id="empleos-search-form" role="search">
+      <form onChange={handleSubmit} id="empleos-search-form" role="search">
         <div className="search-bar">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +62,7 @@ function JobsFormSection({ onSearch, onTextFilter }) {
             type="text"
             placeholder="Buscar trabajos, empresas o habilidades"
           />
-          <button type="submit" onSubmit={handleSubmit} >
-            Buscar
-          </button>
+          
         </div>
 
         <div className="search-filters">

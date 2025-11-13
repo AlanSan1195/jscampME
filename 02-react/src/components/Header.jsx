@@ -1,7 +1,12 @@
- function Header() {
+ 
+//  mi componente link tiene una funcion de popstarte 
+ import { Link } from "../pages/Link.jsx";
+ 
+ export function Header() {
   return (
     <header>
-      <h1>
+      <Link style={{ textDecoration: 'none' }} href="/">
+      <h1 style={{color: 'white'}}>
         <svg
           fill="none"
           stroke="currentColor"
@@ -16,12 +21,13 @@
         </svg>
         DevJobs
       </h1>
+      </Link>
 
       <nav>
-        <a href="">Empleos</a>
+        <Link href="/search">Empleos</Link>
       </nav>
     </header>
   );
 }
 
-export default Header;
+
